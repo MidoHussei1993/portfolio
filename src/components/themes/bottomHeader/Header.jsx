@@ -203,6 +203,18 @@ const BottomHeader = () => {
                   </a>
                 </Tooltip>
               </li>
+              {/* upwork */}
+              <li className="social-icons-upwork">
+                <Tooltip text="Upwork" placement="bottom">
+                  <a
+                    href="https://www.upwork.com/freelancers/~01d6b60cdaa987a467"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-upwork" />
+                  </a>
+                </Tooltip>
+              </li>
               {/* <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="bottom">
                   <a

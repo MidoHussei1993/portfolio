@@ -257,6 +257,18 @@ const FullScreenHeader = ({ textWhite }) => {
                     </a>
                   </Tooltip>
                 </li>
+                {/* upwork */}
+                <li className="social-icons-upwork">
+                  <Tooltip text="Upwork" placement="top">
+                    <a
+                      href="https://www.upwork.com/freelancers/~01d6b60cdaa987a467"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-upwork" />
+                    </a>
+                  </Tooltip>
+                </li>
                 <li className="social-icons-instagram">
                   <Tooltip text="Instagram" placement="top">
                     <a
@@ -298,6 +310,18 @@ const FullScreenHeader = ({ textWhite }) => {
                       rel="noopener noreferrer"
                     >
                       <i className="fab fa-whatsapp" />
+                    </a>
+                  </Tooltip>
+                </li>
+                {/* upwork link */}
+                <li className="social-icons-upwork">
+                  <Tooltip text="Upwork" placement="top">
+                    <a
+                      href="https://www.upwork.com/freelancers/~01d6b60cdaa987a467"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-upwork" />
                     </a>
                   </Tooltip>
                 </li>

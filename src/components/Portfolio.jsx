@@ -16,7 +16,7 @@ const Portfolio = () => {
         <div className="containger-fluid">
           <div className="d-flex justify-content-around align-align-items-center">
             <div className="p-2">
-              <a href="https://api.faster.sa:8080/auth/login" target="_blank">
+              <a href="https://faster.sa/" target="_blank">
                 <img
                   width={"250px"}
                   src="images/projects/faster.png"
@@ -43,7 +43,23 @@ const Portfolio = () => {
                   alt=""
                 />
               </a>
-              <a href="https://ikschools.com/ar/main-page" target="_blank">
+              <a
+                href="https://ikschools.com/ar"
+                target="_blank"
+                title="IK Schools news website"
+              >
+                <img
+                  width={"200px"}
+                  src="images/projects/1663594404rvrbmkblkd.png"
+                  className="mx-3 img-fluid"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://system.ikschools.com/ar/user/login"
+                title="IK Schools system administration website"
+                target="_blank"
+              >
                 <img
                   width={"200px"}
                   src="images/projects/1663594404rvrbmkblkd.png"
