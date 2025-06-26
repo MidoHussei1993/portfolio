@@ -204,6 +204,9 @@ html[dir="rtl"] #footer {
   &.social-icons-colored li.social-icons-google a {
     color: $google;
   }
+  &.social-icons-colored li.social-icons-upwork a svg {
+    fill: #4d555a;
+  }
   li:hover.social-icons-pinterest a,
   &.social-icons-colored li.social-icons-pinterest a {
     color: $pinterest;
@@ -219,6 +222,11 @@ html[dir="rtl"] #footer {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  li:hover.social-icons-instagram a svg,
+  &.social-icons-colored li.social-icons-instagram a svg {
+    // color: $instagram;
+    fill: black;
   }
   li:hover.social-icons-skype a,
   &.social-icons-colored li.social-icons-skype a {
