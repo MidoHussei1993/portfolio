@@ -42,7 +42,7 @@ const FullScreenHeader = ({ textWhite }) => {
           {/* Logo */}
           <Link
             className="logo"
-            title="Mohamed Monem"
+            title="Mohamed Hussein"
             smooth="easeInOutQuint"
             duration={scrollDuration}
             style={{ cursor: "pointer" }}
@@ -61,7 +61,7 @@ const FullScreenHeader = ({ textWhite }) => {
               width={"60px"}
               className="img-fluid"
               src="images/mohmedMonemLogo.png"
-              alt="Mohamed Monem"
+              alt="Mohamed Hussein – Front-End Developer"
             />
           </Link>
           {/* Logo End */}

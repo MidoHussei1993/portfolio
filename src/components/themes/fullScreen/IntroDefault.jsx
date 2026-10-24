@@ -13,18 +13,24 @@ const FullScreenDefaultIntro = () => {
         <div className="row">
           <div className="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn">
             <h1 className="text-12 fw-300 mb-0 text-uppercase">
-              Hi, I'm a software engineer
+              Hi, I'm Mohamed Hussein
+              <span className="visually-hidden">
+                {" "}
+                – Senior Front-End &amp; Software Developer
+              </span>
             </h1>
-            <h2 className="text-21 fw-600 text-uppercase mb-0 ms-n1">
+            <div className="text-21 fw-600 text-uppercase mb-0 ms-n1">
               <Typewriter
                 options={{
-                  strings: ["Freelancer", "Developer", "Mohamed"],
+                  strings: ["Front-End Developer", "Software Developer", "Freelancer"],
                   autoStart: true,
                   loop: true,
                 }}
               />
-            </h2>
-            <p className="text-5">based in 10th of Ramadan, Egypt.</p>
+            </div>
+            <p className="text-5">
+              Senior Front-End &amp; Software Developer based in Egypt.
+            </p>
             <Link
               className="btn btn-dark rounded-0 smooth-scroll mt-3"
               smooth="easeInOutQuint"
@@ -52,8 +58,10 @@ const FullScreenDefaultIntro = () => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/profileImg.jpg"
-                title="I'm Mohamud Menom"
-                alt="I'm Mohamed Monem"
+                title="Mohamed Hussein"
+                alt="Mohamed Hussein – Senior Front-End Developer"
+                width="593"
+                height="596"
               />
             </div>
           </div>
