@@ -11,14 +11,14 @@ const Footer = () => {
                 src="mylogo.svg"
                 width="75px"
                 height="75px"
-                alt=""
+                alt="Mohamed Hussein logo"
                 className="mx-2 img-fluid"
               />
             </div>
             <p className="mb-2 mb-lg-0">
-              Copyright © 2023{" "}
-              <a className="fw-600" href="/">
-                Mohamed Monem
+              Copyright © {new Date().getFullYear()}{" "}
+              <a className="fw-600" href="https://midohussei1993.github.io/portfolio/">
+                Mohamed Hussein
               </a>
               . All Rights Reserved.
             </p>

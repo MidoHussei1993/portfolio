@@ -16,55 +16,60 @@ const Portfolio = () => {
         <div className="containger-fluid">
           <div className="d-flex justify-content-around align-align-items-center">
             <div className="p-2">
-              <a href="https://faster.sa/" target="_blank">
+              <a href="https://faster.sa/" target="_blank"
+                rel="noopener noreferrer">
                 <img
                   width={"250px"}
                   src="images/projects/faster.png"
-                  alt=""
+                  alt="Faster project by Mohamed Hussein"
                   className="mx-3 img-fluid"
                 />
               </a>
               <a
                 href="https://dga-nds-fbhtx.ondigitalocean.app/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="mx-3 img-fluid"
               >
                 <img
                   width={"250px"}
                   src="images/projects/mobile-logo.svg"
-                  alt=""
+                  alt="Saudi NDS (DGA) project by Mohamed Hussein"
                 />
               </a>
-              <a href="https://topqdrat.com/ar" target="_blank">
+              <a href="https://topqdrat.com/ar" target="_blank"
+                rel="noopener noreferrer">
                 <img
                   width={"250px"}
                   src="images/projects/new-logo.b526323.png"
                   className="mx-3 img-fluid"
-                  alt=""
+                  alt="Top Qdrat project by Mohamed Hussein"
                 />
               </a>
               <a
                 href="https://ikschools.com/ar"
                 target="_blank"
+                rel="noopener noreferrer"
                 title="IK Schools news website"
               >
                 <img
                   width={"200px"}
                   src="images/projects/1663594404rvrbmkblkd.png"
                   className="mx-3 img-fluid"
-                  alt=""
+                  alt="IK Schools website by Mohamed Hussein"
                 />
               </a>
               <a
                 href="https://system.ikschools.com/ar/user/login"
                 title="IK Schools system administration website"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   width={"200px"}
                   src="images/projects/1663594404rvrbmkblkd.png"
                   className="mx-3 img-fluid"
-                  alt=""
+                  alt="IK Schools admin system by Mohamed Hussein"
                 />
               </a>
             </div>
